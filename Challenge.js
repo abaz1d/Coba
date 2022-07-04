@@ -1,4 +1,5 @@
-https://www.w3schools.com/js/default.asp
+
+/*https://www.w3schools.com/js/default.asp
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 terus cobain latihan disini https://www.codecademy.com/learn/introduction-to-javascript
 
@@ -9,6 +10,7 @@ Wifi: RUBICAMP
 Sandi: 2022@RubiCAMP#
 Wifi: RUBICAMP5G
 Sandi: 2022@RubiCAMP#5G
+*/
 
 //CH1
 //==============================================================

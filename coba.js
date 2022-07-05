@@ -3,10 +3,10 @@ function sentenceManipulation(word) {
    var x = word.split(' ');
    for (y = 0; y < x.length; y++) {
       if (x[y].charAt(0) == ('a') ||
-         x[y].charAt(0) == ('i') ||
-         x[y].charAt(0) == ('u') ||
-         x[y].charAt(0) == ('e') ||
-         x[y].charAt(0) == ('o')) {
+          x[y].charAt(0) == ('i') ||
+          x[y].charAt(0) == ('u') ||
+          x[y].charAt(0) == ('e') ||
+          x[y].charAt(0) == ('o')) {
          array.push(x[y]);
 
       } else {

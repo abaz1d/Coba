@@ -1,26 +1,22 @@
-function indexPrime(param1) {
-  let i, primes = [2, 3], n = 5;
-  const isPrime = n => {
-     let i = 1, p = primes[i],
-     limit = Math.ceil(Math.sqrt(n));
-     while (p <= limit) {
-        if (n % p === 0) {
-           return false;
-        }
-        i += 1;
-        p = primes[i];
-     }
-     return true;
-  }
-  for (i = 2; i <= param1; i += 1) {
-     while (!isPrime(n)) {
-        n += 2;
-     }
-     primes.push(n);
-     n += 2;
-  };
-  return primes[param1 - 1];
-}
-console.log(indexPrime(4));
-console.log(indexPrime(500));
-console.log(indexPrime(37786));
+function sentenceManipulation(word) {
+    var array = []
+   var x = word.split(' ');
+   for (y = 0; y < x.length; y++) {
+      if (x[y].charAt(0) == ('a') ||
+         x[y].charAt(0) == ('i') ||
+         x[y].charAt(0) == ('u') ||
+         x[y].charAt(0) == ('e') ||
+         x[y].charAt(0) == ('o')) {
+         array.push(x[y]);
+
+      } else {
+         x[y] = x[y].substring(1) + x[y].charAt(0) + 'nyo';
+         array.push(x[y]);
+        
+      }
+
+   }
+   console.log(array.join(" "));
+};
+
+sentenceManipulation('ibu pergi ke pasar bersama aku');
